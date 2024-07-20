@@ -1,0 +1,61 @@
+*{ margin: 0; padding: 0 }
+
+body{
+	background-image: url(../images/map-background-faq.jpg);
+}
+
+header { margin-top: 30px; }
+header div{ height: 90px }
+header div img{ width: 150px; padding-left: 20px }
+header div h4{ padding-left: 25px; font-size: 28px; font-family: 'Montserrat', sans-serif; }
+
+#navigation i{ font-size: 24px }
+#navigation a{ font-family: 'Montserrat', sans-serif; }
+
+#text-container {
+	 overflow-y: auto;
+	 height:400px;
+}
+
+#text-container p{font-size: 16px; text-align: justify; width: 98%}
+#text-container p span{background-color: yellow}
+
+/* PREVENT USER TO SELECT AND COPY ANYTHING */
+body, html{     
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+}
+
+
+#terms{margin-top: -70px}
+#terms span{font-size: 18px}
+
+/* ESCRITORIO GRANDE (lg 1366px en adelante) */
+@media (min-width: 1200px){
+	
+
+}
+
+/* ESCRITORIO MEDIANO (md 1024px en adelante) */
+@media (max-width: 1199px) and (min-width: 992px){
+
+}
+
+/* ESCRITORIO PEQUEÑO (sm 768px en adelante) */
+@media (max-width: 991px) and (min-width: 768px){
+
+}
+
+/* ESCRITORIO MOVIL (xs 320px) */
+@media (max-width: 767px){
+
+    #header a img { width: 120px; padding-left: 10px }
+    #header h4 { padding-left: 25px; font-size: 22px; font-family: 'Montserrat', sans-serif; }
+    #text-container p{ font-size: 14px; }
+
+
+}
